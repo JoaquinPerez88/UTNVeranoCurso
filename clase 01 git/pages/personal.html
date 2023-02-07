@@ -8,6 +8,7 @@
 </head>
 <body>
     <header></header>
+    <hr>
     <nav>
         <ul>
             <li><a href="./clientes.html">clientes</a></li>
@@ -18,7 +19,84 @@
         </ul>
 
     </nav>
-    <main></main>
+    <hr>
+    <main>
+        <h1>Soy la pagina de personal</h1>
+          
+          <h2>Formularios</h2>
+          <!-- Etiquetas para formularios -->
+<form action="../js/databasse.js" id="formulario" name="formulario">
+<!-- LAbel: es la info que le damos al usuario para introducir dato -->
+<label for="Nombre">Nombre</label>
+ <input type="text" id="Nombre" name="Nombre" required>
+
+<br><!-- es como un enter -->
+ 
+<label for="apellido">Apellido</label>
+  <input type="text" id="apellido" name="apellido" required>
+<!-- required - es para que sea obligatorio -->
+  <br>
+
+  <label for="password">password</label>
+  <input type="password" name="password" id="password" required>
+
+  <br>
+
+  <label for="edad">Edad</label>
+  <input type="number" name="edad" id="edad" required>
+
+  <br>
+
+  <label for="genero">Genero</label>
+  <br>
+  <label for="genero">mujer</label>
+  <input type="radio" name="mujer" id="mujer">
+
+  <label for="genero">Hombre</label>
+  <input type="radio" name="hombre" id="hombre">
+
+  <label for="genero">otro</label>
+  <input type="radio" name="otro" id="otro">
+  
+  <br>
+
+<label for="provincia">Provincia</label>
+  <select name="provincia" id="provincia">
+   <option value="provincia">Cordoba</option>
+   <option value="provincia">Buenos Aires</option>
+  </select>
+ 
+<br>
+
+<label for="confirma">Confirma</label>
+<input type="checkbox" name="confirma" id="confirma">
+
+<br> 
+
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" required>
+
+  <br>
+
+  <label for="fecha">Fecha</label>
+  <input type="date" name="fecha" id="fecha" required>
+
+  <br>
+
+  <label for="enviar">Enviar</label>
+  <input class-"button" type="submit" value="enviar">
+
+  <br>
+
+<!-- etiqueta de botones -->
+  <button>Envio de datos</button>
+
+  <br>
+
+  <button type="reset">Borrar formulario</button>
+</form>
+    </main>
+    <hr>
     <footer></footer>
     
 </body>
