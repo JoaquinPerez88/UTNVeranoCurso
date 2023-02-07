@@ -25,8 +25,10 @@
           
           <h2>Formularios</h2>
           <!-- Etiquetas para formularios -->
-<form action="../js/databasse.js" id="formulario" name="formulario">
+<form action="../js/databasse.js" method="post" id="formulario" name="formulario">
 <!-- LAbel: es la info que le damos al usuario para introducir dato -->
+<!-- method es la forma en que se enviaran los datos, post no los ve nadie y get se ve en la url -->
+
 <label for="Nombre">Nombre</label>
  <input type="text" id="Nombre" name="Nombre" required>
 
@@ -48,15 +50,21 @@
   <br>
 
   <label for="genero">Genero</label>
+
   <br>
-  <label for="genero">mujer</label>
-  <input type="radio" name="mujer" id="mujer">
 
-  <label for="genero">Hombre</label>
-  <input type="radio" name="hombre" id="hombre">
+  <label for="Mujer">Mujer</label>
+  <input type="radio" name="genero" id="mujer">
 
-  <label for="genero">otro</label>
-  <input type="radio" name="otro" id="otro">
+  <br>
+
+  <label for="Hombre">Hombre</label>
+  <input type="radio" name="genero" id="hombre">
+
+  <br>
+
+  <label for="otro">Otro</label>
+  <input type="radio" name="genero" id="otro">
   
   <br>
 
