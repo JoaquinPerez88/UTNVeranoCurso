@@ -8,6 +8,31 @@ header
     background-color: rgb(223, 197, 166);
 }
 
+li{
+    list-style-type: style none;
+    display: inline;
+    margin-right: 20px;
+    border-top:1px solid black ;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+nav{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+ul{
+    text-align: center;
+}
 /* estilos apuntando a las clases */
 p{color: brown;}
 
