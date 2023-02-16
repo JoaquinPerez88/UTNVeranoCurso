@@ -1,6 +1,6 @@
-body{
+.todo{
     color: rgb(75, 69, 69);
-    background-color: rgb(194, 13, 146);
+    background-color: rgb(245, 149, 219);
 }
 
 
@@ -15,11 +15,8 @@ body{
     flex-direction: column;
     height: 100%;
     /* toma la altura de todo el dispositivo */
-    background-color: white;
+    background-color: rgb(248, 249, 250);
     border-radius: 2px;
-
-    
-
 }
 
 #titulo{
