@@ -1,0 +1,16 @@
+/* se trae de internet para no cargar la pc */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+.planetas{ font-family: 'josefin sans';
+
+    ;background-image: url(../image/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.avif);
+}
+
+
+.plantasCarnivoras{font-family: 'Zeyada',
+     cursive;
+    color: black;
+}
