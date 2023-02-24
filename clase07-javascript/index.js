@@ -234,3 +234,6 @@ let farmacia = 1500;
 
 totalSuper += farmacia
 console.log(`El total a pagar es de ${totalSuper} pesos`);
+
+// La ejecucion de nodemon se corta con ctrl+c
+
